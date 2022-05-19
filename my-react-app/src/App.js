@@ -2,7 +2,6 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Profile from './Profile'
 import Register from './Register'
-import Table from './Table';
 import VerifyEmail from './VerifyEmail';
 import Login from './Login'
 import {useState, useEffect} from 'react'
@@ -35,11 +34,6 @@ function App() {
           <Route exact path='/' element={
             <PrivateRoute>
               <Profile/>
-            </PrivateRoute>
-          }/>
-          <Route exact path='/table' element={
-            <PrivateRoute>
-              <Table/>
             </PrivateRoute>
           }/>
            <Route exact path='/products' element={
