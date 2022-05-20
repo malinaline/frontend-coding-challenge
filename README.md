@@ -20,7 +20,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-react app
+  cd my-react-app
 ```
 
 Install dependencies

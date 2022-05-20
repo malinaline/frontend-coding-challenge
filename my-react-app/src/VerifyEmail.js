@@ -58,7 +58,7 @@ function VerifyEmail() {
           <strong>A Verification email has been sent to:</strong><br/>
           <span>{currentUser?.email}</span>
         </p>
-        <span>Follow the instruction in the email to verify your account</span>       
+        <span>Follow the instruction in the email to verify your account (If you can't find it, check your email spam folder)</span>       
         <button 
           onClick={resendEmailVerification}
           disabled={timeActive}

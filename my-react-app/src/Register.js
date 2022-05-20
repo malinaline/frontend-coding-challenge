@@ -48,13 +48,13 @@ function Register() {
   return (
     <div className='center'>
       <div className='auth'>
-        <h1>Register</h1>
+        <h1>Registera</h1>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={register} name='registration_form'>
           <input 
             type='email' 
             value={email}
-            placeholder="Enter your email"
+            placeholder="Skriv din emejladress"
             required
             onChange={e => setEmail(e.target.value)}/>
 
@@ -62,21 +62,21 @@ function Register() {
             type='password'
             value={password} 
             required
-            placeholder='Enter your password'
+            placeholder='Skriv ett lösenord'
             onChange={e => setPassword(e.target.value)}/>
 
             <input 
             type='password'
             value={confirmPassword} 
             required
-            placeholder='Confirm password'
+            placeholder='Skriv samma lösenord igen'
             onChange={e => setConfirmPassword(e.target.value)}/>
 
-          <button type='submit'>Register</button>
+          <button type='submit'>Registera</button>
         </form>
         <span>
-          Already have an account?  
-          <Link to='/login'>login</Link>
+         <p> Har du redan ett konto?</p>
+         <p> <Link to='/login'>logga in</Link></p>
         </span>
       </div>
     </div>

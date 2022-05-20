@@ -41,29 +41,27 @@ function Login(){
   return(
     <div className='center'>
       <div className='auth'>
-        <h1>Log in</h1>
+        <h1>Logga in här</h1>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={login} name='login_form'>
           <input 
             type='email' 
             value={email}
             required
-            placeholder="Enter your email"
+            placeholder="Skriv din mejladress"
             onChange={e => setEmail(e.target.value)}/>
 
           <input 
             type='password'
             value={password}
             required
-            placeholder='Enter your password'
+            placeholder='Skriv ditt lösenord'
             onChange={e => setPassword(e.target.value)}/>
 
-          <button type='submit'>Login</button>
+          <button type='submit'>Logga in</button>
         </form>
-        <p>
-          Don't have and account? 
-          <Link to='/register'>Create one here</Link>
-        </p>
+        <p>Saknar du ett konto?</p>
+         <p><Link to='/register'> Skapa ett här</Link></p>
       </div>
     </div>
   )

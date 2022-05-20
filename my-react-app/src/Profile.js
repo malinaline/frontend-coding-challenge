@@ -17,7 +17,7 @@ function Profile() {
 
   return (
       <div className='center'>
-        <div className=''> 
+        <div className='auth'> 
           <Link to='/Products'>Visa produkter</Link>
           <span onClick={() => signOut(auth)}>Sign Out</span>
         </div>
