@@ -8,7 +8,7 @@
 - [@malinaline](https://www.github.com/malinaline)
 
 ## 🚀 Demo
-[Live demo at Netlify](https://loginpantonestore.netlify.app/login)
+- [Live demo at Netlify](https://loginpantonestore.netlify.app/login)
 
 ## Screenshot
 ![localhost_3000_(iPhone 6_7_8) (1)](https://user-images.githubusercontent.com/75427957/169509102-2a641590-d381-48a8-b323-e4b15b800b5f.png)
