@@ -53,16 +53,16 @@ function VerifyEmail() {
   return (
     <div className='center'>
       <div className='verifyEmail'>
-        <h1>Verify your Email Address</h1>
+        <h1>Verifera din email</h1>
         <p>
-          <strong>A Verification email has been sent to:</strong><br/>
+          <strong>Ett mejl för verifiering har skickats till:</strong><br/>
           <span>{currentUser?.email}</span>
         </p>
-        <span>Follow the instruction in the email to verify your account (If you can't find it, check your email spam folder)</span>       
+        <span>Följ instruktionerna i mejlet för att verifiera ditt konto. Kika i din skräppost om du inte hittar mejlet i din inkorg.</span>       
         <button 
           onClick={resendEmailVerification}
           disabled={timeActive}
-        >Resend Email {timeActive && time}</button>
+        >Testa att skicka igen {timeActive && time}</button>
       </div>
     </div>
   )

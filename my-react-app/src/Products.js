@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.min.css';
  
+
+// DEN HÄR SIDAN HAR JAG FLYTTAT TILL PROFILSIDAN
 function Products() {
   const [productList, setProductList] = useState([]);
  
@@ -13,6 +15,7 @@ function Products() {
   }, []);
  
   return (
+
     <div className="container-fluid p-3">
       <table class="table table-sm mt-3">
         <thead class="thead-dark">
@@ -24,7 +27,7 @@ function Products() {
           {productList.map(x => <tr>
             <td>{x.name}</td>
             <td>{x.id}</td>
-            <div style={{backgroundColor: x.color}} className='box'> </div>
+            <td style={{backgroundColor: x.color}} className='box'> </td>
             <td>{x.color}</td>
           </tr>)}
           {productList.length == 0 && <tr>
