@@ -7,15 +7,12 @@
 
 - [@malinaline](https://www.github.com/malinaline)
 
-## Screenshots
-
-
+## Screenshot
 ![localhost_3000_(iPhone 6_7_8) (1)](https://user-images.githubusercontent.com/75427957/169509102-2a641590-d381-48a8-b323-e4b15b800b5f.png)
-
-## Run Locally![localhost_3000_(iPhone 6_7_8) (2)](https://user-images.githubusercontent.com/75427957/169509124-295f3313-03d8-467c-9821-8b1eaf8642bb.png)
-
+![localhost_3000_(iPhone 6_7_8)](https://user-images.githubusercontent.com/75427957/169510276-1e71c9c7-3b70-45da-b9ef-835690407279.png)
 ![localhost_3000_(iPhone 6_7_8)](https://user-images.githubusercontent.com/75427957/169509137-be317993-36e9-462a-a617-cc708a059a4a.png)
 
+## Run Locally!
 Clone the project
 
 ```bash
