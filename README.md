@@ -1,6 +1,6 @@
 
 
-# SIMPLE LOGIN AND REGISTER FORM
+# SIMPLE LOGIN FORM
 
 
 ## 👩‍💻 Author
