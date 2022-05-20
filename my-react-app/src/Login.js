@@ -41,7 +41,7 @@ function Login(){
   return(
     <div className='center'>
       <div className='auth'>
-        <h1>Logga in här</h1>
+        <h1>Logga in</h1>
         {error && <div className='auth__error'>{error}</div>}
         <form onSubmit={login} name='login_form'>
           <input 
